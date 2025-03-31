@@ -79,11 +79,11 @@ main() {
     echo "Creating EC2 instance..."
 
     # Specify the parameters for creating the EC2 instance
-    AMI_ID="ami-04f167a56786e4b09"
+    AMI_ID=""
     INSTANCE_TYPE="t2.micro"
-    KEY_NAME="demo1-key"
-    SUBNET_ID="subnet-0b60dc1628c07a3dc"
-    SECURITY_GROUP_IDS="sg-09c10a7ebb6dfc2e6"  # Add your security group IDs separated by space
+    KEY_NAME=""
+    SUBNET_ID=""
+    SECURITY_GROUP_IDS=""  # Add your security group IDs separated by space
     INSTANCE_NAME="Shell-Script-EC2-Demo1"
 
     # Call the function to create the EC2 instance
